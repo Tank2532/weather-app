@@ -1,0 +1,116 @@
+main {
+    width: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    background-color: darkblue;
+    color: white;
+}
+
+.card-1 {
+    outline-color: black;
+    outline: auto;
+    padding: 30px;
+}
+
+.card-2 {
+    outline-color: black;
+    outline: auto;
+    padding: 30px;
+}
+
+.card-3 {
+    outline-color: black;
+    outline: auto;
+    padding: 30px;
+}
+
+.card-4 {
+    outline-color: black;
+    outline: auto;
+    padding: 30px;
+}
+
+.card-5 {
+    outline-color: black;
+    outline: auto;
+    padding: 30px;
+}
+
+.forecast {
+    position: relative;
+    left: 5px;
+}
+
+
+.header {
+    position: relative;
+    text-align: center;
+    background-color: blue;
+    color: white;
+    margin: -20px 0px;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+aside {
+    background-color: lightgrey;
+}
+
+.history {
+    padding: 0px 10px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+}
+
+.weather-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-btn {
+    background-color: lightblue;
+}
+
+.current-city {
+    position: relative;
+    outline-color: black;
+    outline: auto;
+    margin: 5px;
+}
+
+.city {
+    display: flex;
+    flex-direction: row;
+}
+
+#city {
+    padding: 0px 10px;
+}
+
+#date {
+    padding: 0px 10px;
+}
+
+#picture {
+    padding: 0px 10px;
+}
+
+.current-weather {
+    padding: 10px;
+}

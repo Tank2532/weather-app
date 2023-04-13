@@ -15,13 +15,13 @@ body {
     color: white;
 }
 
-.card-1 {
+.cards section {
     outline-color: black;
     outline: auto;
     padding: 30px;
 }
 
-.card-2 {
+/* .card-2 {
     outline-color: black;
     outline: auto;
     padding: 30px;
@@ -43,7 +43,7 @@ body {
     outline-color: black;
     outline: auto;
     padding: 30px;
-}
+} */
 
 .forecast {
     position: relative;

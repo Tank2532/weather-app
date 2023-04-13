@@ -54,7 +54,7 @@ var fiveDayDates = [day1, day2, day3, day4, day5]
 
 // Function to grab the Lat and Lon for the forecast API
 async function getLatLon(cityName) {
-    var requestLonLat = "http://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=e555e88ca3b04d74c7f45d18751b7ab0"; 
+    var requestLonLat = "https://api.openweathermap.org/geo/1.0/direct?q=" + cityName + "&limit=5&appid=e555e88ca3b04d74c7f45d18751b7ab0"; 
     const response = await fetch(requestLonLat);
     const data = await response.json();
     var lat = data[0].lat;
